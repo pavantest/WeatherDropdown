@@ -1,0 +1,33 @@
+.custom-dropdown-holder {
+	width: 50%;
+    margin: 0 auto;
+}
+.custom-dropdown, 
+.custom-dropdown .btn,
+.custom-dropdown ul {
+	width: 250px;
+	text-align: left;
+	padding: 5px;
+}
+.custom-dropdown ul {
+	border: 1px solid lightgrey;
+	color: #000000;
+}
+.custom-dropdown .caret {
+	position: relative;
+	top: 7px;
+	right: 5px;
+}
+.custom-dropdown ul li label{
+	cursor: pointer;
+	font-weight: 100;
+}
+.dropdown-list-items{
+	list-style:none;
+}
+.list-show {
+	display:block;
+}
+.list-hide {
+	display:none;
+}
